@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // --- BACKEND CONFIG ---
-  const BACKEND_URL = "http://localhost:5000";
+  const BACKEND_URL = "https://whisper-backend-f2ro.onrender.com";
 
   // --- SILENCE-BASED CHUNKING CONFIG ---
   // Instead of cutting audio every fixed N seconds, we cut a chunk when
